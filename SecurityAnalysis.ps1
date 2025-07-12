@@ -1,6 +1,6 @@
 ###################################################
 #
-#   Title   : Microsoft Security Analyzer
+#   Title   : Windows Security Analyzer
 #   Author  : Dipta Roy
 #   Version : 1.0
 #   Date    : 13-07-2025
