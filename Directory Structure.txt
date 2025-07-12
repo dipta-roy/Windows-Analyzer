@@ -1,0 +1,28 @@
+C:\Executables\Scripts\
+│
+├── SecurityAnalysis.ps1          # Main script with GUI for selecting checks and generating reports
+├── Check-MicrosoftProductUpdates.ps1  # Checks installed and missing Microsoft product updates
+├── Check-WindowsUpdates.ps1      # Checks Windows updates (unchanged, assumed present)
+├── Check-STIGCompliance.ps1      # Checks STIG compliance (unchanged, assumed present)
+├── Check-GroupPolicy.ps1         # Checks Group Policy settings (unchanged, assumed present)
+├── Check-Firewall.ps1            # Checks firewall settings (unchanged, assumed present)
+├── Check-UserAccess.ps1          # Checks user access settings (unchanged, assumed present)
+├── Check-Certificates.ps1        # Checks certificates (unchanged, assumed present)
+├── Check-InstalledSoftware.ps1   # Checks installed software (unchanged, assumed present)
+├── Check-SystemEvents.ps1        # Checks system events (unchanged, assumed present)
+├── Generate-Report.ps1           # Generates HTML report from check results
+├── Write-Log.ps1                 # Logging utility for all scripts
+│
+└── Reports\
+    └── <Hostname>-<Timestamp>\   # Dynamic folder, e.g., MyPC-20250523T174500
+        ├── SecurityAnalysisReport.html  # HTML report with results
+        ├── general.log                 # General log for script execution
+        ├── microsoft_product_updates.log  # Log for Microsoft product updates check
+        ├── windows_updates.log        # Log for Windows updates check
+        ├── stig_compliance.log        # Log for STIG compliance check
+        ├── group_policy.log           # Log for Group Policy check
+        ├── firewall.log               # Log for firewall check
+        ├── user_access.log            # Log for user access check
+        ├── certificates.log           # Log for certificates check
+        ├── installed_software.log     # Log for installed software check
+        ├── system_events.log          # Log for system events check
